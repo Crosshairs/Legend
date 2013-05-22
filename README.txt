@@ -91,7 +91,7 @@ III. Using GIT - Branching
 				
 			What branch to be in at any given time:
 				- Master branch:
-					o You are creating files.
+					o You are creating files/folders.
 					o You are looking at merges others have made
 					o You are playtesting the entire game (not to be confused with playtesting something you are working on)
 					
@@ -142,25 +142,17 @@ V. Protocol
 		There is various conventions and protocol that needs to be followed when handling any files related to the game. If said protocol/conventions are not stated above, they will be stated here.
 		
 		For naming Branches:
-			-Development Branches/ Subdevelopment Branches| 'Develop' + '::' + <Intended Branch to Merge to> + ':' + <Branch Name> + ':' + <File(s)/Containing Folder(s) intended to be edited>
-				o Files should not contain the extension
-				o Folders should have an asterick (*) immediately before the folder name
-				o If there are multiple files/folders, separate them with a dash (-)
-				o If the name starts getting long, cut it off with a "..."
-				o Example 1| Develop::Master:MyBranch:File1
-				o Example 2| Develop::Master:MyBranch:File1-File2...
-				o Example 3 (for Subdevelopment Branches)| Develop:: MyBranch:MySubBranch:*Folder1-File3-*Folder2...
+			- Development Branches/ Subdevelopment Branches| 'Develop' + '--' + <Intended Branch to Merge to> + '-' + <Branch Name>
+				o Example 1| Develop--Master-MyBranch
+				o Example 2| Develop--Master-MyBranch
+				o Example 3 (for Subdevelopment Branches)| Develop--MyBranch-MySubBranch
 			
-			-Deletion Branches| 'Delete' + '::' + <Intended Branch to Merge to> + ':' + <Branch Name> + ':' + <File(s)/Containing Folder(s) intended to be deleted>
-				o Files should not contain the extension
-				o Folders should have an asterick (*) immediately before the folder name
-				o If there are multiple files/folders, separate them with a dash (-)
-				o If the name starts getting long, cut it off with a "..."
-				o Example 1| Delete::Master:MyBranch:File1
-				o Example 2| Delete::Master:MyBranch:File1-File2...
-			
-			-Parts of Subdevelopment Branches can be deleted by replacing the 'Develop' keyword with 'Delete'
-				o Example 1| Delete:: MyBranch:MySubBranch:*Folder1-File3-*Folder2...
+			- Deletion Branches| 'Delete' + '--' + <Intended Branch to Merge to> + '-' + <Branch Name>
+				o Example 1| Delete--Master-MyBranch
+				o Example 2| Delete--Master-MyBranch
+				o Example 3| Delete--MyBranch-MySubBranch
+				
+			- Branch and Sub-branch names should sum up the files/folders being changed in one or two words. Use CamelCase for naming branches.
 				
 		
 		For commit messages:

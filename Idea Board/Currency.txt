@@ -1,0 +1,2 @@
+Platinum, Gold, Silver, Copper based
+Probably Decimal Based

@@ -1,0 +1,9 @@
+Strength: How strong your character is
+Dexterity: Hand eye coordination
+Stamina: How long you can do things
+	Stamina and strength mix for hp
+Luck: How lucky you are with mob drops, random events, etc.
+Charisma: How friendly you are with NPC's
+Perception: How aware you are of your surroundings
+Intelligence: How smart you are
+Arcane: How much mana you have

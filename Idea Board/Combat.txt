@@ -1,0 +1,3 @@
+Survival based: enemies initiate combat
+
+Sneak removes/lowers enemies awareness

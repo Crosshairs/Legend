@@ -1,0 +1,9 @@
+All skills cap at level 30 by default
+	Up to 20 points can be spent to raise skill caps
+	Feats can also raise skill caps by one (max of 4 of these feats)
+
+Blocking: Timing based
+
+Counterattack: Timing based
+
+Damage output: Based off stats/traits

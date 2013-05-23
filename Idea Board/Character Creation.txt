@@ -1,0 +1,9 @@
+Feats: very small passive bonuses to characters
+       run a bit faster
+       one or two earned per character level up
+
+Races: Each continent/server should have it's own race
+       No animal based races
+       
+Feature Editor?: Things like base skills still need to be discussed
+         	 

@@ -1,0 +1,10 @@
+No "Kill 20 of X" quests
+
+Quests lead player to learn UI through gameplay
+
+No tutorials
+
+No escort quests
+
+Complex Dynamic Quest System (Once a quest is completed, no other player can do that quest)
+        Would require very well planned system to keep all players entertained

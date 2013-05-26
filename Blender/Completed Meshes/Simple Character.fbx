@@ -10,10 +10,10 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2013
 		Month: 05
-		Day: 25
-		Hour: 23
-		Minute: 43
-		Second: 06
+		Day: 26
+		Hour: 14
+		Minute: 13
+		Second: 22
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2013-05-25 23:43:06:000"
+CreationTime: "2013-05-26 14:13:22:000"
 Creator: "Blender version 2.66 (sub 1)"
 
 ; Object definitions
@@ -406,7 +406,7 @@ Objects:  {
 		Properties60:  {
 			Property: "QuaternionInterpolate", "bool", "",0
 			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",-2.747066736221313,-95.422187805175781,37.085464477539062
+			Property: "Lcl Translation", "Lcl Translation", "A+",-2.747066736221313,6.120177745819092,-4.560134887695312
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",-90.000009334538021,0.000000000000000,0.000000000000000
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",6.429841995239258,6.429841995239258,6.429841995239258
 			Property: "RotationOffset", "Vector3D", "",0,0,0
@@ -11873,7 +11873,7 @@ Objects:  {
 		NbPoseNodes: 1
 		PoseNode:  {
 			Node: "Model::Cube"
-			Matrix: 0.000000485439500,0.000000000000000,-6.429841041564941,0.000000000000000,-6.429841041564941,0.000000000000000,-0.000000485439500,0.000000000000000,0.000000000000000,6.429841041564941,0.000000000000000,0.000000000000000,-2.747066736221313,-95.422187805175781,37.085464477539062,1.000000000000000
+			Matrix: 0.000000485439500,0.000000000000000,-6.429841041564941,0.000000000000000,-6.429841041564941,0.000000000000000,-0.000000485439500,0.000000000000000,0.000000000000000,6.429841041564941,0.000000000000000,0.000000000000000,-2.747066736221313,6.120177745819092,-4.560134887695312,1.000000000000000
 		}
 	}
 	GlobalSettings:  {
@@ -11956,19 +11956,19 @@ Takes:  {
 						Color: 1,0,0
 					}
 					Channel: "Y" {
-						Default: -95.422187805175781
+						Default: 6.120177745819092
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,-95.422187805175781,L
+							1924423250,6.120177745819092,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
-						Default: 37.085464477539062
+						Default: -4.560134887695312
 						KeyVer: 4005
 						KeyCount: 1
 						Key: 
-							1924423250,37.085464477539062,L
+							1924423250,-4.560134887695312,L
 						Color: 0,0,1
 					}
 					LayerType: 1

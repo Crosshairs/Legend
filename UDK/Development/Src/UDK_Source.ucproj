@@ -58,7 +58,10 @@
     <Folder Include="GFxUI\Classes\" />
     <Folder Include="IpDrv\" />
     <Folder Include="IpDrv\Classes\" />
-    <Folder Include="TeamDev" />
+    <Folder Include="MythicGame\" />
+    <Folder Include="MythicGame\Classes\" />
+    <Folder Include="Mythic\" />
+    <Folder Include="Mythic\Classes\" />
     <Folder Include="OnlineSubsystemGameCenter\" />
     <Folder Include="OnlineSubsystemGameCenter\Classes\" />
     <Folder Include="OnlineSubsystemPC\" />
@@ -71,7 +74,6 @@
     <Folder Include="SubstanceAir\Classes\" />
     <Folder Include="SwordEditor\" />
     <Folder Include="SwordEditor\Classes\" />
-    <Folder Include="TeamDev\Classes" />
     <Folder Include="UDKBase\" />
     <Folder Include="UDKBase\classes\" />
     <Folder Include="UnrealEd\" />
